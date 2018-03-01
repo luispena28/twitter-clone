@@ -1,0 +1,118 @@
+/* Stylesheet for login page */
+
+* {box-sizing: border-box;}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color:orange;
+	padding:0;
+	margin:0;
+	height:100vh;
+}
+
+h1 {
+	font-size: 20px;
+    line-height: 24px;
+}
+
+h2 {
+	font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+h3 {
+	font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+h4 {
+	color: #14171a;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 24px;
+    align-self: flex-end;
+	float:right;
+}
+
+
+h4 a {
+	text-decoration:none;
+	color:#1DA1F2;
+}
+
+.wrapper {
+	display:flex;
+	height:100%;
+	border:1px solid blue
+}
+
+.left-section {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex:1;
+	background-color:#1DA1F2;
+    color: #FFFFFF;
+}
+
+.left-section div {
+	vertical-align: center;
+}
+
+.right-section {
+	display:grid;
+	justify-content: center;
+	flex:1;
+	background-color:#FFFFFF;
+
+}
+
+.login {
+
+}
+
+.signin {
+	display:flex;
+	align-self: center;
+/*	border: 2px solid red;
+*/	width:300px;
+	height:300px;
+	flex-direction:column;
+	
+}
+
+.signin input {
+	width:280px;
+	height: 35px;
+	margin-bottom: 13px;
+}
+
+.signin button {
+	align-self: flex-start;
+
+}
+
+
+
+.fa-twitter {
+	color:#1DA1F2;
+}
+
+/*ul {
+	position: absolute;
+	bottom:0;
+margin:0;
+
+	display:flex;
+	border:1px solid red;
+	grid-template-columns: repeat(auto-fill);
+	list-style-type:none;
+}
+
+li {
+	text-decoration:none;
+	font-size:12px;
+	/*padding:11px 11px;
+}*/
