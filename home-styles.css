@@ -7,7 +7,7 @@ html {
 }
 
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family:'Open Sans', sans-serif;
 	margin:0px;
 	padding:0px;
 	height:100%;
@@ -23,6 +23,14 @@ ul{
 
 a{
 	text-decoration:none;
+}
+
+.container-1{
+	display:flex;
+	justify-content:center;
+	max-width:100%;
+	background-color:orange;
+	outline:1px solid blue;
 }
 
 .nav-right form{
@@ -70,24 +78,15 @@ a{
 	color:#1DA1F2;
 }
 
-.container-1{
-	display:flex;
-	justify-content:center;
-	max-width:100%;
-	background-color:orange;
-	border-bottom:solid 1.5px #66757F;
-}
-
 .navbar{
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
-	background: #FFFFFF;
+	background:#FFFFFF;
 	margin:0;
 	max-width:970px;
 	flex-grow:1;
 	flex-shrink:1;
-
 }
 
 .navbar ul{
@@ -123,6 +122,7 @@ a{
 	flex-grow:1;
 	flex-shrink:0;
 	padding:6px 12px 6px 12px;
+	outline:1px solid green;
 }
 
 #tweet{
@@ -149,19 +149,17 @@ a{
 	flex-shrink:0;
 	flex-grow:0;
 	padding:6px 12px 7px 12px;
+	outline:1px solid orange;
 }
 
 .container-2{
 	display:flex;
 	justify-content:center;
-	/*border:2px solid green;*/
+	margin-top:10px;
+	border:2px solid green;
 	width:100%;
 	min-height: 100vh;
-}
-
-.content{
-	display:flex;
-	justify-content:space-between;
+	background-color:gray;
 }
 
 .content-left{
@@ -173,10 +171,19 @@ a{
 
 .content-center{
 	display:flex;
-	flex: 0 0 510px;
+	flex-direction: column;
+	align-items:center;
+	flex: 0 0 565px;
 	min-height: 100%;
-	margin:0 7px;
-	background-color:blue;
+	margin:0 10px;
+}
+
+.tweet-box{
+	display:flex;
+	width: 565px;
+	height: 100px;
+	margin-bottom: 10px;
+	background-color:red;
 }
 
 .content-right{
@@ -184,7 +191,6 @@ a{
 	flex:0 0 223px;
 	min-height:100%;
 	background-color:green;
-
 }
 
 @media screen and (max-width:560px){
